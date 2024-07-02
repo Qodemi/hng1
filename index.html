@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fa fa-github icon-s"></i> Ayyub Raji</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <a class="theme-btn" id = "toggle-button">Switch to Light Mode</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="nodis">sorry, desktop view not available yet..</div>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-header">
+                    <h4 >Developer</h4>
+                    <div class="line-h"></div>
+                </div>
+                <div class="main-hero">
+
+                    <div class="left-info">
+
+                        <div><a href="images/me.jpeg" target="_blank" class="user">
+                                <img src="images/me1-38x38.png" class="me-img" />
+                            </a></div>
+
+                        <h5>Ayub</h5>
+                        <p class="small">Full-stack dev.</p>
+                        <ul class="details">
+                            <li><a href="mailto:ayub@rajtronixtech.com"><i  class="fa fa-envelope icon-s"></i> ayub@rajtronix</a></li>
+                            <li><a><i  class="fa fa-map-marker icon-s"></i> Ibadan, Ng.</a></li>
+                            <li><a> <i  class="fa  fa-briefcase icon-s"></i>F-time / contr.</a></li>
+                            <li><a href="https://ayyubraji.netlify.app"><i  class="fa  fa-globe icon-s"></i>website</a></li>
+                            
+                        </ul>
+                        <a href="Raji_Ayub Resume.pdf" download class="fa fa-download btn">Download CV</a>
+
+                        <div class="misc"></div>
+                    </div>
+
+                    <div class="right-intro">
+                        <h2>Hello,
+                            <br/> I'm <span>Ayub</span>,
+                            <br />Full-Stack Developer
+                        </h2>
+
+                        <p class="small">I build responsive websites with creative designs and experience, 
+                            which are also scalable and user-friendly with neat, readable and maintainable code.</p>
+                        <a href="https://wa.me/+2348145014012?text=Hello,%20I%20need%20a%20quote%20for%20" class="chat-btn">Let's talk <i class="fa fa-whatsapp"></i><i class="fa fa-chat"></i> </a>
+                        <!-- <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn">Let's Talk</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-header">About Me</h2>
+            <div class="about-content">
+                <div class="profile">
+                    <img src="images/me-140x140.png" class="profile-img" />
+
+                    <div class="profile-info">
+                        <h3 class="tint">Ayyub</h3>
+                        <p>Full-Stack Developer</p>
+                        <ul>
+                            <li>HTML: 90%</li>
+                            <li>CSS: 95%</li>
+                            <li>JavaScript: 70%</li>
+                            <li>React: 65%</li>
+                            <li>PHP: 60%</li>
+                            <li>SQL: 75%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-des">
+                    <p><span class="tint"> Hello!</span> <br />Hi, I’m Raji Ayub Ozovehe, a web developer specializing in front end development. 
+                        I build responsive websites with creative designs and experience, 
+                        which are also scalable and user-friendly with neat, readable and maintainable code.
+                    </p>
+                    <p>My expertise lies in using HTML, CSS, JavaScript, React, and PHP to craft engaging user interfaces and robust server-side functionality.</p>
+                    <p>I thrive in environments where I can solve complex problems and continuously learn and improve my skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-header-col">
+                    <h4>My HNG internship</h4>
+                    <div class="line-h"></div>
+                    <a class="small" data-testid="currentDay"><i class="fa fa-calender"></i>Tuesday ~</a>
+                     <a data-testid="currentTimeUTC" id="utcTime"></a>
+                </div>
+                <div class="main-hero">
+
+                    <div class="left-info">
+
+                        <div><a href="images/me.jpeg" target="_blank" class="user">
+                                <img src="images/me1-38x38.png" class="me-img" />
+                            </a></div>
+
+                        <h5 data-testid="slackDisplayName">@Ayyub</h5>
+                        <p class="small">HNG Internship 11</p>
+                        <ul class="ml details">
+                            <li><a data-testid="slackEmail" href="mailto:rajiayubaozovehe@gmail.com"><i  class="fa fa-envelope icon-s"></i> Slack Email</a></li>
+                            <!-- <li><a data-testid="slackDisplayName"><i  class="fa fa-map-marker icon-s"></i> Ibadan, Ng.</a></li> -->
+                            
+                            <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                            
+                            <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                            
+                        </ul>
+                        <a class="mt" href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                        
+                        <div class="misc"></div>
+                    </div>
+
+                    <div class="right-intro">
+                        <h2>Heads up !
+                            <br/> here are my <span>goals</span>
+                            <br />for the next 2years in the tech field.
+                        </h2>
+
+                        <p class="small">I wouldn't sum my goals up as lengthy, so I'd just say in 2years I hope to have leveled up a few more skill set and be working 
+                            with an organisation where where I can utilize these skills and keep improving.
+                        </p>
+                        <a  href="https://wa.me/+2348145014012?text=Hello,%20I%20need%20a%20quote%20for%20" class="chat-btn">Let's talk <i class="fa fa-whatsapp"></i><i class="fa fa-chat"></i> </a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="works">
+        <div class="container">
+            <h2 class="section-header">My works</h2>
+            
+            <div class="project-list">
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/proj-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">Weather App</h4>
+                        <p class="proj-des">This WEATHER API Project fetches weather data in real time and displays it on the interface.</p>
+                        <a target="_blank" href="https://weatherius.netlify.app" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/P-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">Photography page</h4>
+                        <p class="proj-des">Landing page for a Photography website.</p>
+                        <a target="_blank" href="https://yzweb.netlify.app" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/U-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">Youtube Clone</h4>
+                        <p class="proj-des">This video streaming website uses API to fetch videos and data from the original youtube page, and is a clone of the Youtube website.</p>
+                        <a target="_blank" href="https://utuubes.netlify.app" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/J-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">Jumia Clone</h4>
+                        <p class="proj-des">A clone of the infamous Jumia website.</p>
+                        <a target="_blank" href="https://juumia-clone.netlify.app" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/LU-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">Luxury Website</h4>
+                        <p class="proj-des">A luxury website landing page.</p>
+                        <a target="_blank" href="https://xyweb.netlify.app" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <div class="proj">
+                        <img src="images/V-285x220.jpg" />
+                    </div>
+
+                    <div class="proj-details">
+                        <h4 class="proj-title">STEM Landing Page</h4>
+                        <p class="proj-des">A React.js landing page for a STEM website, vastcreations.</p>
+                        <a target="_blank" href="https://vastcreation.tech" class="p-link">view full</a>
+                    </div>
+                    
+                </div>
+
+               
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a class="f-text" href="mailto:ayub@rajtronixtech.com" >ayub@rajtronixtech.com</a>
+                <a href="https://wa.me/+2348145014012?text=Hello,%20I%20need%20a%20quote%20for%20" class="f-text" >+234 (0) 814 501 4012</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/index.js"></script>
+
+</body>
+</html>
+   
